@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * AI Focal Point Demo: documents and supports the Focal Point operation setup.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function drupal_ai_focal_point_demo_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.drupal_ai_focal_point_demo':
+      return (string) t('This demo module documents how to configure the Drupal AI module with the Focal Point operation type. See the project README and the linked Drupal.org issues for patches and automator setup.');
+    default:
+      return '';
+  }
+}

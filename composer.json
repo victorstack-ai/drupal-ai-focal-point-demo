@@ -1,0 +1,9 @@
+{
+  "name": "victorstack-ai/drupal-ai-focal-point-demo",
+  "description": "Demo configuration for Drupal AI Automator with the Focal Point operation type (VLM-driven subject detection).",
+  "type": "drupal-module",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2"
+  }
+}
