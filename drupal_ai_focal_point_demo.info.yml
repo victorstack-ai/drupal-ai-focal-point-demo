@@ -1,6 +1,6 @@
 name: AI Focal Point Demo
 type: module
-description: 'Demo configuration and documentation for using the Drupal AI module Focal Point operation type with the AI Automator.'
+description: "Demo configuration and documentation for using the Drupal AI module Focal Point operation type with the AI Automator."
 package: Custom
 core_version_requirement: ^10 || ^11
 dependencies:
